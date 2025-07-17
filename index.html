@@ -10,23 +10,31 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
-<body class="bg-white text-gray-800">
+<body class="text-gray-800 bg-blue-100">
     <!-- Navbar -->
     <header class="fixed top-0 inset-x-0 z-50 bg-white shadow-md">
         <div class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
-            <div class="text-2xl font-bold text-indigo-600">Om More</div>
+            <!-- Clickable Logo/Name -->
+            <a href="#home" class="text-2xl font-bold text-indigo-600 hover:text-indigo-800 transition-colors">
+                Om More's Portfolio
+            </a>
+
+            <!-- Navigation -->
             <nav class="space-x-8 text-base font-semibold">
                 <a href="#home" class="hover:text-indigo-600 transition-colors">Home</a>
-                <a href="#about" class="hover:text-indigo-600 transition-colors">About</a>
-                <a href="#resume" class="hover:text-indigo-600 transition-colors">Resume</a>
+                <a href="#experience" class="hover:text-indigo-600 transition-colors">Experience</a>
+                <a href="#education" class="hover:text-indigo-600 transition-colors">Education</a>
                 <a href="#projects" class="hover:text-indigo-600 transition-colors">Projects</a>
+                <a href="#certificates" class="hover:text-indigo-600 transition-colors">Certificates</a>
+                <a href="#skills" class="hover:text-indigo-600 transition-colors">Skills</a>
                 <a href="#contact" class="hover:text-indigo-600 transition-colors">Contact</a>
             </nav>
         </div>
     </header>
 
+
     <!-- Hero -->
-    <section id="home" class="pt-28 pb-24 bg-gradient-to-b from-indigo-50 to-white">
+    <section id="home" class="bg-white pt-28 pb-24">
         <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center md:justify-between">
 
             <!-- Left: Text -->
@@ -55,12 +63,12 @@
 
 
     <!-- About -->
-    <section id="about" class="py-10 bg-gradient-to-b from-white to-indigo-50">
+    <section id="about" class="py-20">
         <div class="max-w-5xl mx-auto px-6 text-center">
 
             <!-- Heading -->
             <h2 class="text-4xl md:text-5xl font-extrabold text-gray-800 mb-6 tracking-tight">
-                About Me
+                ABOUT ME
             </h2>
 
             <!-- Line Accent -->
@@ -79,163 +87,163 @@
 
 
     <!-- Resume -->
-    <section id="resume" class="py-10 bg-gradient-to-b from-indigo-50 to-white">
-        <div class="max-w-5xl mx-auto px-6">
 
-            <!-- Education -->
-            <h2 class="text-4xl font-extrabold text-center text-gray-800 mb-4 tracking-tight">Education</h2>
+    <section id="experience" class="py-20">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-4xl  md:text-5xl font-extrabold text-center text-gray-800 mb-4 tracking-tight">EXPERIENCE
+            </h2>
+            <div class="w-20 h-1 bg-indigo-500 mx-auto rounded-full mb-10"></div>
+
+            <div class="space-y-8">
+                <!-- Celebal Technologies -->
+                <div
+                    class="bg-white shadow-lg rounded-xl p-6 border-l-8 border-indigo-500 hover:scale-[1.01] transition duration-300">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-2">Celebal Technologies</h3>
+                    <p class="text-gray-600 mb-4">
+                        <span class="block font-medium text-gray-700">App Developer</span>
+                        <span class="block font-medium text-gray-700">May 2025 - Present</span>
+                    </p>
+                    <ul class="list-disc list-inside text-gray-600 mb-4">
+                        <li>Built and improved apps using tools like Android Studio(using Java), Flutter, React, Java,
+                            Python.</li>
+                        <li>Collaborated with the team to test, debug and optimize apps using Firebase and GitHub.</li>
+                    </ul>
+                    <a href="assets/pdf/Celebal_Offer_Letter.pdf" target="_blank"
+                        class="inline-block bg-indigo-600 text-white px-5 py-2 text-sm rounded hover:bg-indigo-700 transition">
+                        View Certificate
+                    </a>
+                </div>
+
+                <!-- Sumago Infotech -->
+                <div
+                    class="bg-white shadow-lg rounded-xl p-6 border-l-8 border-indigo-500 hover:scale-[1.01] transition duration-300">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-2">Sumago Infotech</h3>
+                    <p class="text-gray-600 mb-4">
+                        <span class="block font-medium text-gray-700">Web Developer</span>
+                        <span class="block font-medium text-gray-700">Jun 2023 - Jul 2023</span>
+                    </p>
+                    <ul class="list-disc list-inside text-gray-600 mb-4">
+                        <li>Built websites using HTML, CSS, JavaScript, React.</li>
+                        <li>Worked on connecting websites with databases and APIs, GitHub deployment</li>
+                    </ul>
+                    <a href="assets/pdf/OmMore_Sumago_Certificate.pdf" target="_blank"
+                        class="inline-block bg-indigo-600 text-white px-5 py-2 text-sm rounded hover:bg-indigo-700 transition">
+                        View Certificate
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="py-20">
+        <div class="max-w-5xl mx-auto px-6">
+            <h2 class="text-4xl md:text-5xl font-extrabold text-center text-gray-800 mb-4 tracking-tight">EDUCATION</h2>
             <div class="w-20 h-1 bg-indigo-500 mx-auto rounded-full mb-10"></div>
 
             <div class="space-y-6">
-                <div class="space-y-6">
-                    <!-- Engineering -->
-                    <div
-                        class="bg-white border-l-8 border-indigo-500 shadow-lg rounded-xl p-6 hover:scale-[1.01] transition duration-300">
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">B.E. - AI & Data Science</h3>
-                        <p class="text-gray-600 text-base leading-relaxed">
-                            <span class="block font-medium text-gray-700">VESIT, Mumbai</span>
-                            CGPA: <span class="font-semibold text-indigo-600">9.65 / 10.0</span>
-                        </p>
-                    </div>
-
-                    <!-- Diploma -->
-                    <div
-                        class="bg-white border-l-8 border-indigo-500 shadow-lg rounded-xl p-6 hover:scale-[1.01] transition duration-300">
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">Diploma - Computer Engineering</h3>
-                        <p class="text-gray-600 text-base leading-relaxed">
-                            <span class="block font-medium text-gray-700">Government Polytechnic, Thane</span>
-                            Percentage: <span class="font-semibold text-indigo-600">91.31%</span>
-                        </p>
-                    </div>
-
-                    <!-- SSC -->
-                    <div
-                        class="bg-white border-l-8 border-indigo-500 shadow-lg rounded-xl p-6 hover:scale-[1.01] transition duration-300">
-                        <h3 class="text-xl font-bold text-gray-800 mb-2">SSC</h3>
-                        <p class="text-gray-600 text-base leading-relaxed">
-                            <span class="block font-medium text-gray-700">S.V.V.H.S., Kalyan</span>
-                            Percentage: <span class="font-semibold text-indigo-600">90%</span>
-                        </p>
-                    </div>
+                <!-- Engineering -->
+                <div
+                    class="bg-white border-l-8 border-indigo-500 shadow-lg rounded-xl p-6 hover:scale-[1.01] transition duration-300">
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">B.E. - AI & Data Science</h3>
+                    <p class="text-gray-600 text-base leading-relaxed">
+                        <span class="block font-medium text-gray-700">VESIT, Mumbai</span>
+                        CGPA: <span class="font-semibold text-indigo-600">9.65 / 10.0</span>
+                    </p>
                 </div>
 
-
-                <!-- Internships -->
-                <h2 class="text-4xl font-extrabold text-center text-gray-800 mt-16 mb-4 tracking-tight">Internships &
-                    Experience</h2>
-                <div class="w-20 h-1 bg-indigo-500 mx-auto rounded-full mb-10"></div>
-
-                <div class="space-y-8">
-                    <!-- Celebal Technologies -->
-                    <div
-                        class="bg-white shadow-lg rounded-xl p-6 border-l-8 border-indigo-500 hover:scale-[1.01] transition duration-300">
-                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Celebal Technologies</h3>
-                        <p class="text-gray-600 mb-4">
-                            <span class="block font-medium text-gray-700">App Developer</span>
-                        </p>
-                        <ul class="list-disc list-inside text-gray-600 mb-4">
-                            <li>Built and improved apps using tools like Android Studio(using Java), Flutter, React,
-                                Java, Python.</li>
-                            <li>Collaborated with the team to test, debug and optimize apps using Firebase and GitHub.
-                            </li>
-                        </ul>
-                        <a href="#" target="_blank"
-                            class="inline-block bg-indigo-600 text-white px-5 py-2 text-sm rounded hover:bg-indigo-700 transition">
-                            View Certificate
-                        </a>
-                    </div>
-
-                    <!-- Sumago Infotech -->
-                    <div
-                        class="bg-white shadow-lg rounded-xl p-6 border-l-8 border-indigo-500 hover:scale-[1.01] transition duration-300">
-                        <h3 class="text-2xl font-bold text-gray-800 mb-2">Sumago Infotech</h3>
-                        <p class="text-gray-600 mb-4">
-                            <span class="block font-medium text-gray-700">Web Developer</span>
-                        </p>
-                        <ul class="list-disc list-inside text-gray-600 mb-4">
-                            <li>Built websites using HTML, CSS, JavaScript, React.</li>
-                            <li>Worked on connecting websites with databases and APIs, GitHub deployment</li>
-                        </ul>
-                        <a href="#" target="_blank"
-                            class="inline-block bg-indigo-600 text-white px-5 py-2 text-sm rounded hover:bg-indigo-700 transition">
-                            View Certificate
-                        </a>
-                    </div>
+                <!-- Diploma -->
+                <div
+                    class="bg-white border-l-8 border-indigo-500 shadow-lg rounded-xl p-6 hover:scale-[1.01] transition duration-300">
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Diploma - Computer Engineering</h3>
+                    <p class="text-gray-600 text-base leading-relaxed">
+                        <span class="block font-medium text-gray-700">Government Polytechnic, Thane</span>
+                        Percentage: <span class="font-semibold text-indigo-600">91.31%</span>
+                    </p>
                 </div>
 
-
+                <!-- SSC -->
+                <div
+                    class="bg-white border-l-8 border-indigo-500 shadow-lg rounded-xl p-6 hover:scale-[1.01] transition duration-300">
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">SSC</h3>
+                    <p class="text-gray-600 text-base leading-relaxed">
+                        <span class="block font-medium text-gray-700">S.V.V.H.S., Kalyan</span>
+                        Percentage: <span class="font-semibold text-indigo-600">90%</span>
+                    </p>
+                </div>
             </div>
+        </div>
     </section>
 
 
     <!-- Projects -->
-    <section id="projects" class="py-10 bg-gradient-to-b from-white to-indigo-50">
+    <section id="projects" class="py-20">
         <div class="max-w-7xl mx-auto px-6">
-            <h2 class="text-4xl font-extrabold text-center text-gray-800 mb-4 tracking-tight">Projects</h2>
+            <h2 class="text-4xl md:text-5xl font-extrabold text-center text-gray-800 mb-4 tracking-tight">PROJECTS</h2>
             <div class="w-24 h-1 bg-indigo-500 mx-auto rounded-full mb-12"></div>
 
             <div class="grid md:grid-cols-2 gap-10">
 
                 <!-- Project Card -->
                 <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition p-5 border border-gray-200">
-                    <img src="assets/images/project-chatbot.png" alt="RAG-based PDF Chatbot"
+                    <img src="assets/images/RAG_chatbot_image.png" alt="RAG-based PDF Chatbot"
                         class="w-full h-48 object-cover rounded-lg mb-4">
-                    <h3 class="text-2xl font-semibold text-indigo-600 mb-2">RAG-based Research Paper Chatbot</h3>
+                    <h3 class="text-2xl font-extrabold mb-2">RAG-based Research Paper Chatbot</h3>
                     <p class="text-gray-600 text-base leading-relaxed">
                         An AI chatbot that allows users to upload PDFs and intelligently chat with their content using
                         LangChain, LLMs, and FAISS.
                     </p>
                     <div class="mt-4 space-x-4">
-                        <a href="#"
-                            class="inline-block text-sm bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700 transition">Code</a>
-                        <a href="#"
-                            class="inline-block text-sm bg-gray-100 text-gray-800 px-4 py-2 rounded hover:bg-gray-200 transition">Demo</a>
+                        <a href="https://huggingface.co/spaces/ommore86/research-paper-chatbot"
+                            class="inline-block text-sm bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700 transition">Live
+                            Demo</a>
+                        <a href="https://github.com/ommore86/research-paper-chatbot"
+                            class="inline-block text-sm bg-gray-100 text-gray-800 px-4 py-2 rounded hover:bg-gray-200 transition">Code</a>
                     </div>
                 </div>
 
                 <!-- Example Project Card 2 -->
                 <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition p-5 border border-gray-200">
-                    <img src="assets/images/project-placeholder.png" alt="Project Title"
+                    <img src="assets/images/tinytots_image.png" alt="Project Title"
                         class="w-full h-48 object-cover rounded-lg mb-4">
-                    <h3 class="text-2xl font-semibold text-indigo-600 mb-2">TinyTots - Kids Learning App</h3>
+                    <h3 class="text-2xl font-extrabold mb-2">TinyTots - Kids Learning App</h3>
                     <p class="text-gray-600 text-base leading-relaxed">
                         Brief description of the project, tech used, and what problem it solves or features it offers.
                     </p>
                     <div class="mt-4 space-x-4">
-                        <a href="#"
+                        <a href="https://github.com/ommore86/Tiny-Tots/"
                             class="inline-block text-sm bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700 transition">Code</a>
-                        <a href="#"
-                            class="inline-block text-sm bg-gray-100 text-gray-800 px-4 py-2 rounded hover:bg-gray-200 transition">Demo</a>
                     </div>
                 </div>
                 <!-- Example Project Card 3 -->
                 <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition p-5 border border-gray-200">
-                    <img src="assets/images/project-placeholder.png" alt="Project Title"
+                    <img src="assets/images/rideshare_image.png" alt="Project Title"
                         class="w-full h-48 object-cover rounded-lg mb-4">
-                    <h3 class="text-2xl font-semibold text-indigo-600 mb-2">RideShare</h3>
+                    <h3 class="text-2xl font-extrabold mb-2">RideShare</h3>
                     <p class="text-gray-600 text-base leading-relaxed">
                         Brief description of the project, tech used, and what problem it solves or features it offers.
                     </p>
                     <div class="mt-4 space-x-4">
-                        <a href="#"
-                            class="inline-block text-sm bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700 transition">Code</a>
-                        <a href="#"
-                            class="inline-block text-sm bg-gray-100 text-gray-800 px-4 py-2 rounded hover:bg-gray-200 transition">Demo</a>
+                        <a href="https://ommore86.github.io/RideShare/"
+                            class="inline-block text-sm bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700 transition">Live
+                            Demo</a>
+                        <a href="https://github.com/ommore86/RideShare"
+                            class="inline-block text-sm bg-gray-100 text-gray-800 px-4 py-2 rounded hover:bg-gray-200 transition">Code</a>
                     </div>
                 </div>
                 <!-- Example Project Card 4 -->
                 <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition p-5 border border-gray-200">
-                    <img src="assets/images/project-placeholder.png" alt="Project Title"
+                    <img src="assets/images/twitter_clone_image.png" alt="Project Title"
                         class="w-full h-48 object-cover rounded-lg mb-4">
-                    <h3 class="text-2xl font-semibold text-indigo-600 mb-2">Twitter Clone</h3>
+                    <h3 class="text-2xl font-extrabold mb-2">Twitter Clone</h3>
                     <p class="text-gray-600 text-base leading-relaxed">
                         Brief description of the project, tech used, and what problem it solves or features it offers.
                     </p>
                     <div class="mt-4 space-x-4">
-                        <a href="#"
-                            class="inline-block text-sm bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700 transition">Code</a>
-                        <a href="#"
-                            class="inline-block text-sm bg-gray-100 text-gray-800 px-4 py-2 rounded hover:bg-gray-200 transition">Demo</a>
+                        <a href="https://twitter-clone-om-more.vercel.app/"
+                            class="inline-block text-sm bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700 transition">Live
+                            Demo</a>
+                        <a href="https://github.com/ommore86/Twitter-Clone"
+                            class="inline-block text-sm bg-gray-100 text-gray-800 px-4 py-2 rounded hover:bg-gray-200 transition">Code</a>
                     </div>
                 </div>
             </div>
@@ -244,25 +252,31 @@
 
 
     <!-- Achievements -->
-    <section id="achievements" class="py-20 bg-gradient-to-b from-indigo-50 to-white">
+    <section id="certificates" class="py-20">
         <div class="max-w-6xl mx-auto px-6">
-            <h2 class="text-4xl font-extrabold text-center text-gray-800 mb-4 tracking-tight">Achievements &
-                Certifications</h2>
+            <h2 class="text-4xl md:text-5xl font-extrabold text-center text-gray-800 mb-4 tracking-tight">CERTIFICATIONS</h2>
             <div class="w-24 h-1 bg-indigo-500 mx-auto rounded-full mb-10"></div>
 
             <div class="grid md:grid-cols-2 gap-6">
-                <!-- Item 1 -->
+
                 <div
                     class="flex items-start gap-4 bg-white p-5 rounded-xl shadow hover:shadow-md border border-gray-200 transition">
                     <div class="text-indigo-600 text-xl mt-1">
-                        <i class="fas fa-trophy"></i>
+                        <i class="fas fa-certificate"></i>
                     </div>
                     <div>
-                        <h3 class="font-semibold text-lg text-gray-800">Top performer in university hackathon</h3>
-                        <p class="text-gray-600 text-sm">Led a team in solving real-world AI challenges and won top 3
-                            rank.</p>
+                        <h3 class="font-bold text-lg text-gray-800">Generative AI: LLMs, Transformers, Applications</h3>
+                        </h3>
+                        <p class="text-gray-600 text-lg font-semibold">Udemy</p>
+                        <a href="https://www.udemy.com/certificate/UC-68c867fe-2748-4c9e-a6e1-06e92cfee71e/"
+                            target="_blank"
+                            class="inline-block bg-indigo-600 text-white mt-3 px-5 py-2 text-sm rounded hover:bg-indigo-700 rounded-full transition">
+                            View Certificate
+                        </a>
                     </div>
                 </div>
+
+
 
                 <!-- Item 2 -->
                 <div
@@ -271,66 +285,127 @@
                         <i class="fas fa-certificate"></i>
                     </div>
                     <div>
-                        <h3 class="font-semibold text-lg text-gray-800">Machine Learning Certification</h3>
-                        <p class="text-gray-600 text-sm">Completed ML course from XYZ platform with hands-on projects.
-                        </p>
+                        <h3 class="font-bold text-lg text-gray-800">Deep Learning Onramp</h3>
+                        <p class="text-gray-600 text-lg font-semibold">MATLAB</p>
+                        <a href="https://matlabacademy.mathworks.com/progress/share/certificate.html?id=0ac153d9-3d2b-49fe-8f0f-1c29ea5d126d&"
+                            target="_blank"
+                            class="inline-block bg-indigo-600 text-white mt-3 px-5 py-2 text-sm rounded-full hover:bg-indigo-700 transition">
+                            View Certificate
+                        </a>
                     </div>
+
                 </div>
 
                 <!-- Item 3 -->
                 <div
                     class="flex items-start gap-4 bg-white p-5 rounded-xl shadow hover:shadow-md border border-gray-200 transition">
                     <div class="text-indigo-600 text-xl mt-1">
-                        <i class="fas fa-lightbulb"></i>
+                        <i class="fas fa-certificate"></i>
                     </div>
                     <div>
-                        <h3 class="font-semibold text-lg text-gray-800">Project showcased at National AI Summit 2025
+                        <h3 class="font-bold text-lg text-gray-800">Intro to Machine Learning</h3>
                         </h3>
-                        <p class="text-gray-600 text-sm">Presented innovative RAG-based chatbot for academic research
-                            papers.</p>
+                        <p class="text-gray-600 text-lg font-semibold">Kaggle</p>
+                        <a href="https://www.kaggle.com/learn/certification/ommore86/intro-to-machine-learning"
+                            target="_blank"
+                            class="inline-block bg-indigo-600 text-white mt-3 px-5 py-2 text-sm rounded-full hover:bg-indigo-700 transition">
+                            View Certificate
+                        </a>
                     </div>
                 </div>
 
-                <!-- Add more blocks as needed -->
+                <!-- Item 4 -->
+                <div
+                    class="flex items-start gap-4 bg-white p-5 rounded-xl shadow hover:shadow-md border border-gray-200 transition">
+                    <div class="text-indigo-600 text-xl mt-1">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-lg text-gray-800">Generative and Deep Generative Model</h3>
+                        <p class="text-gray-600 text-lg font-semibold">LearnTube.ai</p>
+                        <a href="https://learntube.ai/verify/certificate/0c3ec3c1-3c10-4987-9b2a-b8104909d00d"
+                            target="_blank"
+                            class="inline-block bg-indigo-600 text-white mt-3 px-5 py-2 text-sm rounded-full hover:bg-indigo-500 transition">
+                            View Certificate
+                        </a>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
 
 
     <!-- Skills -->
-    <section id="skills" class="py-10 bg-gradient-to-b from-white to-indigo-50">
+    <section id="skills" class="py-20">
         <div class="max-w-6xl mx-auto px-6">
-            <h2 class="text-4xl font-extrabold text-center text-gray-800 mb-4 tracking-tight">Skills & Tech Stack</h2>
+            <h2 class="text-4xl md:text-5xl font-extrabold text-center text-gray-800 mb-4 tracking-tight">SKILLS</h2>
             <div class="w-24 h-1 bg-indigo-500 mx-auto rounded-full mb-12"></div>
 
             <div class="grid md:grid-cols-3 gap-8 text-center">
 
-                <!-- Languages -->
                 <div class="bg-white rounded-xl border border-gray-200 shadow hover:shadow-md transition p-6">
                     <div class="text-indigo-600 text-3xl mb-4">
                         <i class="fas fa-code"></i>
                     </div>
-                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Languages</h3>
-                    <p class="text-gray-600">Python, JavaScript, C/C++, SQL</p>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Languages</h3>
+                    <div class="flex justify-center gap-10 text-left">
+                        <ul class="list-disc list-inside space-y-1 text-gray-600">
+                            <li>C</li>
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>HTML</li>
+                            <li>PHP</li>
+                        </ul>
+                        <ul class="list-disc list-inside space-y-1 text-gray-600">
+                            <li>C++</li>
+                            <li>JavaScript</li>
+                            <li>Dart</li>
+                            <li>CSS</li>
+                            <li>SQL</li>
+                        </ul>
+                    </div>
                 </div>
+
 
                 <!-- Tools -->
                 <div class="bg-white rounded-xl border border-gray-200 shadow hover:shadow-md transition p-6">
                     <div class="text-indigo-600 text-3xl mb-4">
                         <i class="fas fa-tools"></i>
                     </div>
-                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Tools</h3>
-                    <p class="text-gray-600">GitHub, VS Code, Google Colab, Postman</p>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Tools</h3>
+                    <div class="flex justify-center gap-10 text-left">
+                        <ul class="list-disc list-inside space-y-1 text-gray-600">
+                            <li>Android Studio</li>
+                            <li>GitHub</li>
+                        </ul>
+                        <ul class="list-disc list-inside space-y-1 text-gray-600">
+                            <li>Google Colab</li>
+                            <li>VS Code</li>
+                        </ul>
+                    </div>
                 </div>
+
 
                 <!-- Frameworks -->
                 <div class="bg-white rounded-xl border border-gray-200 shadow hover:shadow-md transition p-6">
                     <div class="text-indigo-600 text-3xl mb-4">
                         <i class="fas fa-laptop-code"></i>
                     </div>
-                    <h3 class="text-xl font-semibold text-gray-800 mb-2">Frameworks</h3>
-                    <p class="text-gray-600">React, Flask, LangChain, Tailwind CSS</p>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Frameworks</h3>
+                    <div class="flex justify-center gap-10 text-left">
+                        <ul class="list-disc list-inside space-y-1 text-gray-600">
+                            <li>Flutter</li>
+                            <li>React</li>
+                            <li>Tailwind</li>
+                        </ul>
+                        <ul class="list-disc list-inside space-y-1 text-gray-600">
+                            <li>Flask</li>
+                            <li>LangChain</li>
+                        </ul>
+                    </div>
                 </div>
+
 
             </div>
         </div>
@@ -338,12 +413,12 @@
 
 
     <!-- Contact -->
-    <section id="contact" class="py-10 bg-gradient-to-b from-indigo-100 to-white">
+    <section id="contact" class="py-10">
         <div class="max-w-4xl mx-auto px-6 text-center">
-            <h2 class="text-4xl font-extrabold text-gray-800 mb-4 tracking-tight">Get in Touch</h2>
+            <h2 class="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4 tracking-tight">GET IN TOUCH</h2>
             <div class="w-20 h-1 bg-indigo-500 mx-auto rounded-full mb-6"></div>
             <p class="text-gray-600 text-lg mb-10">
-                Feel free to reach out — I’d love to connect, collaborate, or just have a conversation!
+                Feel free to reach out. I’d love to connect, collaborate, or just have a conversation!
             </p>
 
             <div class="flex justify-center gap-10">
@@ -371,7 +446,7 @@
 
     <!-- Footer -->
     <footer class="bg-gray-900 text-gray-400 text-center py-6">
-        <p>&copy; 2025 Om More. All rights reserved.</p>
+        <p>&copy; 2025 | Om More</p>
     </footer>
 </body>
 
